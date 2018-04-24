@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codex.freeplay.MatchesActivity">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="395dp"
+        android:layout_height="68dp"
+        android:gravity="fill"
+        android:text="Mis partidos"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="395dp"
+        android:layout_height="68dp"
+        android:gravity="fill"
+        android:text="En programa"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="395dp"
+        android:layout_height="68dp"
+        android:gravity="fill"
+        android:text="Invitaciones recibidas"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="395dp"
+        android:layout_height="68dp"
+        android:gravity="fill"
+        android:text="Partidos organizados"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="487dp"
+        android:layout_height="545dp"
+        app:srcCompat="@drawable/paper"
+        tools:layout_editor_absoluteX="-49dp"
+        tools:layout_editor_absoluteY="-45dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:drawableLeft="@drawable/balli"
+        android:text=" Agregar Partido"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+</android.support.constraint.ConstraintLayout>
